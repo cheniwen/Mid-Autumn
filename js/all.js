@@ -29,14 +29,14 @@ scene1.to("#info", { y: 8 * speed }, 0)
 
 /*   Bird   */
 gsap.fromTo("#bird", { opacity: 1 }, {
-    y: -250,
-    x: 800,
+    y: -300,
+    x: 900,
     ease: "power2.out",
     scrollTrigger: {
         trigger: ".scrollElement",
         start: "15% top",
-        end: "60% 100%",
-        scrub: 4,
+        end: "70% 100%",
+        scrub: 7,
         onEnter: function() { gsap.to("#bird", { scaleX: 1, rotation: 0 }) },
         onLeave: function() { gsap.to("#bird", { scaleX: -1, rotation: -15 }) },
     }
