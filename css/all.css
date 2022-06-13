@@ -61,10 +61,3 @@ svg {
       background: #ffffff;
       color: #1B1734;
   }
-
-.text{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-
-  }
